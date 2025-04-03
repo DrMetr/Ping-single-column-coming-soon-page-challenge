@@ -3,7 +3,6 @@
     theme: {
       extend: {
         colors: {
-          //RedError: "hsl(0, 100%, 66%)",
           Blue: "hsl(223, 87%, 63%)",
           PaleBlue: "hsl(223, 100%, 88%)",
           LightRed: "hsl(354, 100%, 66%)",

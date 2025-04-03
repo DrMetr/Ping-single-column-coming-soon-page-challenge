@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,26 +13,28 @@
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline bg-RedError">
-    Hello world!
-  </h1>
 
-  We are launching soon!
+<body class="flex flex-col items-center p-[2rem] gap-[1.5lh]">
 
-  Subscribe and get notified
+  <img src="images/logo.svg" alt="Ping logo" class="h-[1lh] w-[5rem]">
+  <main class="flex flex-col items-center">
+  <h1>We are launching soon!</h1>
 
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
+  <p>Subscribe and get notified</p>
+  <div class="flex flex-col md:flex-row gap-3">
+  <input type="email" placeholder="Your email address...">
+  <button class="bg-Blue p-2 rounded-lg">Notify Me</button>
+  </div>
+  <img src="images/illustration-dashboard.png" alt="Dashboard illustration">
+  </main>
 
   <footer>
+  &copy; Copyright Ping. All rights reserved.
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/DrMetr">DrMetr</a>.
